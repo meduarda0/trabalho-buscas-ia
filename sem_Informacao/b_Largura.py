@@ -1,3 +1,9 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from Problema import PuzzleProblem
+
 def breadthFirstSearch(problem):
     no_inicial = search_tree.getStartNode(problem)
 
